@@ -1,3 +1,38 @@
+# Functional Requirements
+
+1. Counter Component
+   Create buttons for increment, decrement, and reset.
+   Maintain count across re-renders.
+   Implement a visual element where the overall background color increases in a linear manner, preferably using a bezier curve.
+   Implement a reset functionality that resets the level of color in the background to 0.
+2. User Data Form
+   Design a form for user data including fields for name, address, email, and phone.
+   Autogenerate a user ID and save data to local storage or Redux Toolkit on form submission.
+   Display a pop-up message warning users of unsaved changes if they try to close the browser without saving.
+3. Rich Text Editors
+   Visualize user data in rich text editors.
+   Integrate editors with formatting options such as bold, italic, underline, and lists.
+   Ensure data persistence for the rich text editors, allowing users to continue editing where they left off.
+   Implementation
+
+# This project implements the above requirements by creating separate components for each feature:
+
+1.Counter: Implements the counter functionality with buttons for incrementing, decrementing, and resetting the count.
+2.UserDataForm: Provides a form for users to input their data, automatically generating a user ID and saving the data to local storage or Redux Toolkit upon submission. Warns users of unsaved changes before closing the browser.
+3.RichTextEditor: Visualizes user data in rich text editors with formatting options for bold, italic, underline, and lists. Ensures data persistence for ongoing editing sessions.
+Libraries Used
+4 React: JavaScript library for building user interfaces.
+5.Material UI: React component library for building visually appealing UIs.
+6.TypeScript: Strict syntactical superset of JavaScript for type safety.
+7.React Charts: Library for data visualization using charts in React applications.
+8.React Router: Library for declarative routing in React applications.
+
+# Getting Started
+
+1.Clone the repository.
+2.Install dependencies using npm install.
+3.Start the development server using npm start.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
