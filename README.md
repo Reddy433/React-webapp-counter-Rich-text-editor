@@ -23,7 +23,7 @@
 Libraries Used
 4 React: JavaScript library for building user interfaces.
 5.Material UI: React component library for building visually appealing UIs.
-6.TypeScript: Strict syntactical superset of JavaScript for type safety.
+6.Javascript:  JavaScript .
 7.React Charts: Library for data visualization using charts in React applications.
 8.React Router: Library for declarative routing in React applications.
 
