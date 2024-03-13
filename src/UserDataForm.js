@@ -42,7 +42,7 @@ const UserDataForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const userId = generateUserId();
+    // const userId = generateUserId();
     saveToLocalStorage(formData);
     setFormData({
       userId: "",
@@ -62,11 +62,11 @@ const UserDataForm = () => {
     window.location.href = "about:blank";
   };
 
-  const generateUserId = () => {
-    return Math.random()
-      .toString(36)
-      .substr(2, 9);
-  };
+  // const generateUserId = () => {
+  //   return Math.random()
+  //     .toString(36)
+  //     .substr(2, 9);
+  // };
 
   const saveToLocalStorage = (data) => {
     localStorage.setItem("userData", JSON.stringify(data));
